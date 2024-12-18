@@ -1,5 +1,6 @@
 class Node {
     constructor() {
+      //better to let this.value = value and put value as a parameter in contsructor but theodinproject asked to set to null
         this.value = null;
         this.next = null;
     }
